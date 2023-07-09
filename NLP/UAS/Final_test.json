@@ -1,0 +1,532 @@
+{
+    "intents": [
+      {
+        "tag": "salam",
+        "input": 
+        [
+          "Hallo",
+          "Hai",
+          "Hei",
+          "Halo",
+          "Bro",
+          "Helamat pagi",
+          "Selamat siang",
+          "Selamat sore",
+          "selamat malam"
+        ],
+        "respons": ["Hallo Bibot di sini ada yang bisa saya bantu ?"]
+      },
+      {
+        "tag": "selesai",
+        "input": 
+        [
+          "Terima kasih",
+          "Dah-dah",
+          "Selamat tinggal",
+          "Terima kasih infonya",
+          "Sampai jumpa lagi",
+          "Terima kasih informasinya",
+          "Bye"
+        ],
+        "respons": ["dadah Semoga harimu menyenangkan sampai jumpa lagi"]
+      },
+      {
+        "tag": "Bibot",
+        "input": 
+        [
+          "Apa Itu bibot?",
+          "siapa bibot?",
+          "bibot itu apa ?"
+        ],
+        "respons": ["Bibot merupakan sebuah chatbot dari Bisa Ai"]
+      },
+      {
+        "tag": "Pencipta_bibot",
+        "input": 
+        [
+          "Siapa yang buat bibot?",
+          "Pembuat bibot siapa ?",
+          "Siapa pembuat bibot?",
+          "Bibot di ciptakan oleh siapa",
+          "Di buat oleh siapa bibot?"
+        ],
+        "respons": ["Bibot di ciptakan dari salah satu perseta sib bisa ai batch 3 yaitu Tawang sahro winanto"]
+      },
+      {
+        "tag": "Siapa_tawang",
+        "input": 
+        [
+          "Siapa Tawang?",
+          "Tawang itu siapa ?",
+          "Siapa Tawang sahro winanto?"
+        ],
+        "respons": ["Tawang sahro winanto merupakan salah satu perseta sib bisa ai learning path Ai-Research batch 3"]
+      },
+      {
+        "tag": "tujuan_bibot",
+        "input": 
+        [
+          "Apa tujuan di ciptakan bibot?",
+          "apa tugas bibot?",
+          "kenapa bibot di ciptakan",
+          "tujuan bibot apa ?",
+          "Apa tugas dari bibot?",
+          "Apa tujuan bibot"
+        ],
+        "respons": ["Tujuan dari di ciptakan nya bibot adalah untuk membantu teman teman mencari tau seputar bisa ai"]
+      },
+      {
+        "tag": "bisaAi",
+        "input": 
+        [
+          "Apa itu Bisa Ai ?",
+          "Mau tau dong tentang Bisa Ai",
+          "Apa sih Bisa Ai itu ?",
+          "jelaskan apa itu Bisa Ai",
+          "Bisa Ai itu apa?"
+        ],
+        "respons": ["BISA AI merupakan start up yang mengembangkan layanan dan produk seputar Artificial Intelligence yang didirikan pada tahun 2019."]
+      },
+      {
+        "tag": "kampus_merdeka",
+        "input": 
+        [
+          "apa itu kampus merdeka ?",
+          "Jelaskan dong apa itu kampus merdeka",
+          "Mau tau dong tentang kampus merdeka",
+          "kampus merdeka ?",
+          "jelaskan apa itu kampus merdeka?"
+        ],
+        "respons": ["Kampus Merdeka merupakan kebijakan Menteri Pendidikan dan Kebudayaan Nadiem Makarim yang membebaskan mahasiswa untuk mengikuti kegiatan di luar program studinya selama 1 semester atau setara 20 sks dan paling lama 2 semester atau setara 40 sks."]
+      },
+      {
+        "tag": "program_bisa_ai",
+        "input": 
+        [
+          "ada apa aja program dari bisa ai ?",
+          "ada apa aja di bisa ai ?",
+          "bisa ai mempunyai program apa aja ?"
+        ],
+        "respons": [" di bisa ai ada program prakerja dan kampus merdeka"]
+      },
+      {
+        "tag": "penjelasan_program_prakerja",
+        "input": 
+        [
+          "apa itu prakerja ?",
+          "apa yang di maksud program prakerja ?",
+          "prakerja ?",
+          "program prakerja itu apa ?"
+        ],
+        "respons": ["Program Kartu Prakerja adalah program pengembangan kompetensi kerja dan kewirausahaan yang ditujukan untuk pencari kerja, pekerja/buruh yang terkena pemutusan hubungan kerja, dan/atau pekerja/buruh yang membutuhkan peningkatan kompetensi, termasuk pelaku usaha mikro dan kecil. Program ini didesain sebagai sebuah produk dan dikemas sedemikian rupa agar memberikan nilai bagi pengguna sekaligus memberikan nilai bagi sektor swasta."]
+      },
+      {
+        "tag": "Program_prakerja_bisaAI",
+        "input": 
+        [
+          "ada program prakerja apa aja ?",
+          "APa aja program prakerja di bisa ai ?",
+          "Prakerja itu apa ?",
+          "ada program prakerja apa aja di bisa ai ?",
+          "prakerja bisa ai ada program apa aja?"
+        ],
+        "respons": ["di program prakerja ada program Belajar menjadi Pengembang Internet (Bauran PRAKERJA), Belajar menjadi Pengembang Web (Bauran PRAKERJA), Belajar menjadi Spesialis Keamanan (TIK) (Bauran PRAKERJA), Belajar Menjadi Jr. Data Scientist (Bauran PRAKERJA)"]
+      },
+      {
+        "tag": "program_bisaAi_kampus_merdeka",
+        "input": 
+        [
+          "program apa yang di ikutin kampus merdeka apa yang di ikutin bisa ai",
+          "di kampus merdeka bisa ai membuka program apa  ?",
+          "Apa aja program kampus merdeka bisa ai",
+          "bisa ikut program apa di kampus merdeka ?"
+        ],
+        "respons": ["Program kampus merdeka yang di ikutin Bisa AI yaitu program MSIB"]
+      },
+      {
+        "tag": "penjelasan_msib",
+        "input": 
+        [
+          "apa itu msib?",
+          "msib itu apa ?",
+          "msib itu program apa ?"
+        ],
+        "respons": ["MSIB atau Magang dan Studi Independen Bersertifikat adalah salah satu program Kampus Merdeka yang dirancang untuk memastikan mahasiswa mendapatkan keterampilan dan kompetensi utama, terbaik, dan terkini untuk menghadapi dunia masa depan."]
+      },
+      {
+        "tag": "msib_bisaAI",
+        "input": 
+        [
+          "msib bisa ai ada apa aja ?",
+          "program msib apa aja yang di buka bisa ai ?",
+          "program msib bisa ai"
+        ],
+        "respons": ["MSIB Bisa Ai membuka program magang sebanyak 17 program magang dan program Stupen sebanyak 8 program"]
+      },
+      {
+        "tag": "Program_magang_bisaAi",
+        "input": 
+        [
+          "ada apa aja program magang di bisa ai?",
+          "program apa aja yang di buka di magang bisa ai ?",
+          "program magang apa aja yang di buka ?",
+          "ada program apa aja di magang bisa ai?"
+        ],
+        "respons": ["Bisa Ai membuka sebanyak 17 program magang yaitu : Backend Programmer, Business Development, Community Manager, Content Creator dan Technical Writer, Coworking Space Manager, Design Engineering dan Mechanical Engineering, Game Developer dan Animator, Influencer, Instruktur Data Science, Instruktur Full Stack Programming, Mobile Programmer, Pemasaran Digital, Penjualan, Program Manager, UI/UX dan CX, Video dan Graphic Design Editor, Web Programmer"]
+      },
+      {
+        "tag": "magang_Backend_Programmer",
+        "input": 
+        [
+          "Backend Programmer magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Backend Programmer",
+          "tugas apa yang akan di kerjakan di magang Backend Programmer"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan Sistem ERP Pendidikan Bisa AI Academy Smart Kampus dari sisi backend, frontend (web dan mobile), dan cyber security."]
+      },
+      {
+        "tag": "magang_Business_Development",
+        "input": 
+        [
+          "nanti pas magang Business Development ngerjain apa ?",
+          "magang Business Development bakal ngapain aja ?",
+          "tugas apa yang di berikan di magang Business Development"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah Penjualan (sales) dan pemasaran (marketing)."]
+      },
+      {
+        "tag": "magang_Community_Manager",
+        "input": 
+        [
+          "Community Manager magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Community Manager",
+          "tugas apa yang akan di kerjakan di magang Community Manager"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah Penjualan (sales) dan pemasaran (marketing)."]
+      },
+      {
+        "tag": "magang_Content_Creator_dan_Technical_Writer",
+        "input": 
+        [
+          "Content Creator dan Technical Writer magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Content Creator dan Technical Writer",
+          "tugas apa yang akan di kerjakan di magang Content Creator dan Technical Writer"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan UI/UX, Content Creator dan Technical Writer pada Sistem ERP Pendidikan Bisa AI Academy."]
+      },
+      {
+        "tag": "magang_Coworking_Space_Manager",
+        "input": 
+        [
+          "Coworking Space Manager magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Coworking Space Manager",
+          "tugas apa yang akan di kerjakan di magang Coworking Space Manager"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah Penjualan (sales) dan pemasaran (marketing). Penyelesaian Magang yang dibantu oleh mentor BISA AI terkait dengan aktivitas Sales dan Marketing."]
+      },
+      {
+        "tag": "magang_Design_Engineering_dan_Mechanical_Engineering",
+        "input": 
+        [
+          "Design Engineering dan Mechanical Engineering magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Design Engineering dan Mechanical Engineering",
+          "tugas apa yang akan di kerjakan di magang Design Engineering dan Mechanical Engineering"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan Sistem ERP Pendidikan Bisa AI Academy Smart Kampus dari sisi backend, frontend (web dan mobile), dan cyber security."]
+      },
+      {
+        "tag": "magang_Game_Developer_dan_Animator",
+        "input": 
+        [
+          "Game Developer dan Animator magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Game Developer dan Animator",
+          "tugas apa yang akan di kerjakan di magang Game Developer dan Animator"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan Data Science pada Sistem ERP Pendidikan Bisa AI Academy dari sisi Data Science, Natural Language Processing (NLP) dan Big Data Analyst."]
+      },
+      {
+        "tag": "magang_Influencer",
+        "input": 
+        [
+          "Influencer magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Influencer",
+          "tugas apa yang akan di kerjakan di magang Influencer"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah Penjualan (sales) dan pemasaran (marketing)."]
+      },
+      {
+        "tag": "magang_Instruktur_DatavScience",
+        "input": 
+        [
+          "Instruktur Data Science magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Instruktur Data Science",
+          "tugas apa yang akan di kerjakan di magang Instruktur Data Science"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan Sistem ERP Pendidikan Bisa AI Academy Smart Kampus dari sisi backend, frontend (web dan mobile), dan cyber security."]
+      },
+      {
+        "tag": "magang_Instruktur_Full_Stack_Programming",
+        "input": 
+        [
+          "Instruktur Full Stack Programming magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Instruktur Full Stack Programming",
+          "tugas apa yang akan di kerjakan di magang Instruktur Full Stack Programming"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan Sistem ERP Pendidikan Bisa AI Academy Smart Kampus dari sisi backend, frontend (web dan mobile), dan cyber security. "]
+      },
+      {
+        "tag": "magang_Mobile_Programmer",
+        "input": 
+        [
+          "Mobile Programmer magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Mobile Programmer",
+          "tugas apa yang akan di kerjakan di magang Mobile Programmer"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan Sistem ERP Pendidikan Bisa AI Academy Smart Kampus dari sisi backend, frontend (web dan mobile), dan cyber security."]
+      },
+      {
+        "tag": "magang_Pemasaran_Digital",
+        "input": 
+        [
+          "Pemasaran Digital magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Pemasaran Digital",
+          "tugas apa yang akan di kerjakan di magang Pemasaran Digital"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah Penjualan (sales) dan pemasaran (marketing)."]
+      },
+      {
+        "tag": "magang_Penjualan",
+        "input": 
+        [
+          "Penjualan magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Penjualan",
+          "tugas apa yang akan di kerjakan di magang Penjualan"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah Penjualan (sales) dan pemasaran (marketing)."]
+      },
+      {
+        "tag": "magang_Program_Manager",
+        "input": 
+        [
+          "Program Manager magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Program Manager",
+          "tugas apa yang akan di kerjakan di magang Program Manager"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah Penjualan (sales) dan pemasaran (marketing)."]
+      },
+      {
+        "tag": "magang_UI/UX_dan_CX",
+        "input": 
+        [
+          "UI/UX dan CX magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang UI/UX dan CX",
+          "tugas apa yang akan di kerjakan di magang UI/UX dan CX"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan UI/UX, Content Creator dan Technical Writer pada Sistem ERP Pendidikan Bisa AI Academy."]
+      },
+      {
+        "tag": "magang_Video_dan_Graphic_Design_Editor",
+        "input": 
+        [
+          "Video dan Graphic Design Editor magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Video dan Graphic Design Editor",
+          "tugas apa yang akan di kerjakan di magang Video dan Graphic Design Editor"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan Data Science pada Sistem ERP Pendidikan Bisa AI Academy dari sisi Data Science, Natural Language Processing (NLP) dan Big Data Analyst."]
+      },
+      {
+        "tag": "magang_Web_Programmer",
+        "input": 
+        [
+          "Web Programmer magang nya ngerjain apa ?",
+          "apa aja yang di kerjakan di magang Web Programmer",
+          "tugas apa yang akan di kerjakan di magang Web Programmer"
+        ],
+        "respons": ["Proyek magang yang akan dikerjakan oleh peserta magang bersertifikat selama 1 semester adalah pembuatan Sistem ERP Pendidikan Bisa AI Academy Smart Kampus dari sisi backend, frontend (web dan mobile), dan cyber security."]
+      },
+      {
+        "tag": "syarat_magang",
+        "input": 
+        [
+          "apa saja syarat magang di bisa ai",
+          "syarat magang apa saja ?",
+          "magang di bisa aia pa aja syaratnya ?",
+          "untuk bisa magang di bisa ai apa syaratnya ?"
+        ],
+        "respons": ["syarat magang di Bisa Ai yaitu mahasiswa aktif dan minimum semester 5"]
+      },
+      {
+        "tag": "syarat_sib",
+        "input": 
+        [
+          "syarat untuk ikut sib apa saja?",
+          "apa saja syarat untuk bisa ikut sib ?",
+          "apakah ada syarat untuk bisa mengikutin sib?"
+        ],
+        "respons": ["syarat magang di Bisa Ai yaitu mahasiswa aktif dan minimum semester 5"]
+      },
+      {
+        "tag": "program_sib_bisaAi",
+        "input": 
+        [
+          "sib bisa ai ada apa aja ?",
+          "ada apa aja sib bisa ai ?",
+          "program apa aja yang di buka sib bisa ai?",
+          "bisa ai membuka program sib apa saja ?"
+        ],
+        "respons": 
+        [
+          "Bisa Ai membuka program sib sebanyak 8 program yaitu : Bisnis Kecerdasan Artifisial (AI-HUSTLER), Blockchain Kecerdasan Artifisial (AI-BLOCKCHAIN), Infrastuktur Kecerdasan Artifisial (AI-INFRA), Produk dan Desain Kecerdasan Artifisial (AI-HIPSTER), Rekayasa Manufaktur Kecerdasan Artifisial (AI-MANUFACTURE), Riset Kecerdasan Artifisial (AI-RESEARCH), Teknologi Game Kecerdasan Artifisial (AI-GAME), Teknologi Kecerdasan Artifisial (AI-HACKER)"
+        ]
+      },
+      {
+        "tag": "sib_AI-HUSTLER",
+        "input": 
+        [
+          "sib AI-HUSTLER belajar apa ?",
+          "memperlajarin apa sib AI-HUSTLER",
+          "belajar apa di sib AI-HUSTLER?"
+        ],
+        "respons": ["Mahasiswa mengikuti kegiatan belajar terkait Bisnis, Finance, Manajemen dari Kecerdasan Artifisial melalui Course yang tersedia di MOOC BISA AI Academy"]
+      },
+      {
+        "tag": "sib_AI-BLOCKCHAIN",
+        "input": 
+        [
+          "sib AI-BLOCKCHAIN belajar apa ?",
+          "memperlajarin apa sib AI-BLOCKCHAIN",
+          "belajar apa di sib AI-BLOCKCHAIN"
+        ],
+        "respons": ["Mahasiswa mengikuti kegiatan belajar terkait Teknologi Blockchain Kecerdasan Artifisial melalui Course yang tersedia di MOOC BISA AI Academy"]
+      },
+      {
+        "tag": "sib_AI-INFRA",
+        "input": 
+        [
+          "sib AI-INFRA belajar apa ?",
+          "memperlajarin apa sib AI-INFRA",
+          "belajar apa di sib AI-INFRA"
+        ],
+        "respons": ["Mahasiswa mengikuti kegiatan belajar terkait Infra Kecerdasan Artifisial melalui Course yang tersedia di MOOC BISA AI Academy"]
+      },
+      {
+        "tag": "sib_AI-HIPSTER",
+        "input": 
+        [
+          "sib AI-HIPSTER belajar apa ?",
+          "memperlajarin apa sib AI-HIPSTER",
+          "belajar apa di sib AI-HIPSTER"
+        ],
+        "respons": ["Mahasiswa mengikuti kegiatan belajar terkait Desain dan Produk dari Kecerdasan Artifisial melalui Course yang tersedia di MOOC BISA AI Academy"]
+      },
+      {
+        "tag": "sib_AI-MANUFACTURE",
+        "input": 
+        [
+          "sib AI-MANUFACTURE belajar apa ?",
+          "memperlajarin apa sib AI-MANUFACTURE",
+          "belajar apa di sib AI-MANUFACTURE"
+        ],
+        "respons": ["Mahasiswa mengikuti kegiatan belajar terkait Teknologi Rekayasa Manufaktur dari Kecerdasan Artifisial melalui Course yang tersedia di MOOC BISA AI Academy"]
+      },
+      {
+        "tag": "sib_AI-RESEARCH",
+        "input": 
+        [
+          "sib AI-RESEARCH belajar apa ?",
+          "memperlajarin apa sib AI-RESEARCH",
+          "belajar apa di sib AI-RESEARCH"
+        ],
+        "respons": ["Mahasiswa mengikuti kegiatan belajar terkait Riset Kecerdasan Artifisial melalui Course yang tersedia di MOOC BISA AI Academy"]
+      },
+      {
+        "tag": "sib_AI-GAME",
+        "input": 
+        [
+          "sib AI-GAME belajar apa ?",
+          "memperlajarin apa sib AI-GAME",
+          "belajar apa di sib AI-GAME"
+        ],
+        "respons": ["Mahasiswa mengikuti kegiatan belajar terkait Teknologi Game Kecerdasan Artifisial melalui Course yang tersedia di MOOC BISA AI Academy"]
+      },
+      {
+        "tag": "Pembelajaran_tamu",
+        "input": 
+        [
+          "Apa itu pembelajaran tamu ?",
+          "jelaskan apa itu pembelajaran tamu ?",
+          "Pembelajaran tamu itu apa ?"
+        ],
+        "respons": ["Pembelajaran tamu merupakan pembelajaran dengan mengikutin webinar dari mentor mentor Bisa Ai dan selama program kampus merdeka peserta minimal mengikutin 10X pembelajaran tamu"]
+      },
+      {
+        "tag": "Di_mana_pembelajaran_tamu",
+        "input": 
+        [
+          "umtuk mengikutin pembelajaran tamu kita bisa melalui apa ?",
+          "Cara ikut pembelajaran tamu gimana ?",
+          "Di mana kita bisa ikut pembelajaran tamu ?",
+          "Cara ikut pembelajaran tamu ?"
+        ],
+        "respons": ["Pembelajaran tamu bisa di ikutin melalui patfrom tampil.id"]
+      },
+      {
+        "tag": "semuah_webinar_sama?",
+        "input": 
+        [
+          "Apa semuah webinar di tampil id pembelajaran tamu ?"
+        ],
+        "respons": ["Tidak hanya webinar dari mentor Bisa Ai aja yang di anggap pembelajaran tamu"]
+      },
+      {
+        "tag": "Apa_itu_pembelajaran_terjadwal",
+        "input": 
+        [
+          "Pembelajaran terjadwal itu apa ?",
+          "Apa sih pembelajaran terjadwal",
+          "Jelaskan Pembelajaran terjadwal"
+        ],
+        "respons": ["Pembelajran terjadwal merupakan perserta mengikutin kelas yang sudah perserta pilih"]
+      },
+      {
+        "tag": "Minimal_kelas_yang_di ambil",
+        "input": 
+        [
+          "Minimal berapa kelas yang di ambil di pembelajaran terjadwal?",
+          "Minimal ngambil berapa kelas ?",
+          "kita harus ngambil berapa kelas di pembelajaran terjadwal"
+        ],
+        "respons": ["Minimal kelas yang di ambil di pembelajaran terjadwal yaitu sebanyak 5 kelas yaitu kelas wajib 3 dan kelas pilihan 2"]
+      },
+      {
+        "tag": "Apa_itu_pembelajaran_mandiri",
+        "input": 
+        [
+          "Apa itu pembelajaran mandiri?",
+          "apa yang di maksud pembelajaran mandiri ?",
+          "Jelaskan apa itu pembelajaran mandiri",
+          "Pembelajaran mandiri itu apa ?"
+        ],
+        "respons": ["Pembelajaran mandiri yaitu perserta me enrrol free course di platfrom bisa ai"]
+      },
+      {
+        "tag": "Minimal_free_course",
+        "input": 
+        [
+          "Berapa minimal free course yang di mabil?",
+          "Berapa free course yang harus di ambil",
+          "Minimal berapa free course yang di ambil ?"
+        ],
+        "respons": ["minimal free couse yang harus di ambil yaitu minimal 15"]
+      },
+      {
+        "tag": "Softskill",
+        "input": 
+        [
+          "Apa sih softskill?",
+          "Softskill itu apa ?"
+        ],
+        "respons": ["Softskill merupakan perserta di dorong untuk mengisi webinar minimal sekali selama program MSIB"]
+      }
+    ]
+  }
